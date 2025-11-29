@@ -11,11 +11,11 @@
 #Exemplo pratico:
 # idade = int(input('Digite sua idade: '))
 # match idade:
-#     case i if i<12:
+#     case n if n<12:
 #         print('Você é uma criança!')
-#     case i if 12<=i<18:
+#     case n if 12<=n<18:
 #         print('Você é um adolescente!')
-#     case i if i>18:
+#     case n if n>18:
 #         print('Você é um adulto!')
 #     case _:
 #         print('Idade inválida!')
@@ -32,13 +32,13 @@
 #         print('O numero esta fora do intervalo 10 a 20!')
 
 #Valor e pipe(|):
-numero = int(input("Digite um valor entre 1 e 5: "))
-match numero:
-    case 1|2:
-        print('Numero baixo')
-    case 3|4:
-        print('Numero medio')
-    case 5:
-        print("Numero alto")
-    case _:
-        print('Numero fora do intervalo!')
+# numero = int(input("Digite um valor entre 1 e 5: "))
+# match numero:
+#     case 1|2:
+#         print('Numero baixo')
+#     case 3|4:
+#         print('Numero medio')
+#     case 5:
+#         print("Numero alto")
+#     case _:
+#         print('Numero fora do intervalo!')
